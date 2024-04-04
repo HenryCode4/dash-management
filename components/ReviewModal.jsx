@@ -48,7 +48,7 @@ const ReviewForm = ({setReviewModal}) => {
 
         <div className='w-full bg-[#F3F7FE] py-2 px-4 flex justify-between items-center'>
           <input
-            className='w-full outline-none bg-[#F3F7FE] text-[#1E1E1E]'
+            className='w-full outline-none bg-[#F3F7FE] text-[#1E1E1E] text-[16px]'
             type="text"
             placeholder='Select Amenities'
             value={amenities}

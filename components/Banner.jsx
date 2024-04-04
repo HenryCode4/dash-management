@@ -122,7 +122,7 @@ const Banner = ({handleModal}) => {
           <div className="flex gap-x-2 items-center w-full">
 
                  <Search className='text-[#484851]' size={16} />
-                 <input className={`text-[0.9rem] outline-none w-full text-[#484851] ${pathname === "/review" ? "bg-[#FBFAFC]" : "bg-[#F3F7FE]"}`} type='text' placeholder='Enter Address' />
+                 <input className={`text-[16px] outline-none w-full text-[#484851] ${pathname === "/review" ? "bg-[#FBFAFC]" : "bg-[#F3F7FE]"}`} type='text' placeholder='Enter Address' />
           </div>
                  <X  size={13} className="cursor-pointer text-[0.9rem] text-[#484851]" />
              </div>
